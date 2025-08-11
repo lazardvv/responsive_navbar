@@ -55,7 +55,7 @@ const Component = () => {
                     </li>
                   </ul>
                 </li>
-                  <li className='dropdown__subitem'>
+                <li className='dropdown__subitem'>
                   <div className="dropdown__link">
                     <i class="ri-bar-chart-line"></i>Reports <i class="ri-add-line dropdown__add"></i>
                   </div>
@@ -73,7 +73,7 @@ const Component = () => {
                 </li>
               </ul>
             </li>
-            
+
 
             <li><a href='#' className='nav__link'>Products</a></li>
             {/* Dropdown2 */}
