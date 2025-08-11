@@ -170,3 +170,63 @@ transform: rotate(90deg);
   transform: rotate(90deg);
   
 }
+
+
+/*===========DROPDOWN==============*/
+.dropdown__item {
+  cursor: pointer;
+}
+
+.dropdown__arrow {
+  font-size: 1.25rem;
+  font-weight: initial;
+  transition: transform .4s;
+}
+
+
+.dropdown__link,.dropdown__sublink {
+  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-weight: var(--font-semi-bold);
+  transition: background-color .3s;
+}
+
+.dropdown__link i,.dropdown__sublink i {
+  font-size: 1.25rem;
+  font-weight: initial;
+}
+
+.dropdown__link:hover,.dropdown__sublink:hover{
+  background-color: var(--black-color);
+}
+
+.dropdown__menu,.dropdown__submenu{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .4s ease-out;
+}
+
+/*==========SHOW DROPODOWN MENU AND SUBMENU==============*/
+.dropdown__item:hover .dropdown__menu,
+.dropdown__subitem:hover > .dropdown__submenu {
+  max-height: 1000px;
+  transition: max-height .4s ease-in;
+}
+
+/*==========ROTATE DROPDOWN ICON==============*/
+.dropdown__item:hover .dropdown__arrow{
+  transform: rotate(180deg);
+}
+
+/*==========DROPDOWN SUBMENU==============*/
+.dropdown__add{
+  margin-left: auto;
+}
+
+.dropdown__sublink{
+  background-color: var(--black-color-lighten);
+}
