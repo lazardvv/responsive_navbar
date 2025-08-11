@@ -265,7 +265,7 @@ a {
   .nav__list {
     height: 100%;
     display: flex;
-    padding: 0;
+    padding: 1;
     justify-content: initial;
     column-gap: .25rem;
   }
@@ -309,9 +309,9 @@ a {
   /*show dropdown menu*/
 .dropdown__item:hover .dropdown__menu{
   opacity: 1;
-  top: 5.5rem;
+  top: 4.5rem;
   pointer-events: initial;
-  transition: top .3s;
+  transition: top .1s;
 }
 
 /*show dropdown submenu*/
@@ -320,6 +320,10 @@ a {
   top: 0;
   pointer-events: initial;
   transition: top .3s;
+}
+.nav__logo i {
+  font-weight: initial;
+  font-size: 3rem;
 }
 }
 

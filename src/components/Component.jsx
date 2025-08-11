@@ -74,7 +74,6 @@ const Component = () => {
               </ul>
             </li>
 
-
             <li><a href='#' className='nav__link'>Products</a></li>
             {/* Dropdown2 */}
             <li className='dropdown__item'>
